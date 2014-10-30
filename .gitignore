@@ -1,39 +1,45 @@
-# Eclipse
-.project
-.classpath
-.settings
-.checkstyle
+# built application files
+*.ap_
 
-# IntelliJ IDEA
-.idea
-*.iml
-*.ipr
-*.iws
-classes
-gen-external-apklibs
+# files for the dex VM
+*.dex
 
-# Gradle
-.gradle
-build
+# Java class files
+*.class
 
-# Maven
-target
-release.properties
-pom.xml.*
+# generated files
+bin/
+gen/
+build/
 
-# Ant
-bin
-gen
-build.xml
-ant.properties
+# used for BB10 conversion
+dist/
+
+# Local configuration file (sdk path, etc)
 local.properties
-proguard-project.txt
 
-#Crashlytics
-.crashlytics_data
-com_crashlytics_export_strings.xml
-
-# Other
-out/
+# Mac thumbnail db
 .DS_Store
-tmp
+
+# Idea con-crucial project files
+*.idea
+*.iws
+*.iml
+.idea
+.gradle
+local.properties
+
+tests/bin/
+tests/gen/
+tests/.settings/
+
+# Auto generated code from java annotations
+/.apt_generated
+
+# Lint reports
+lint-report.html
+lint-report_files/
+
+# sensitive files not to be committed at any point
+onefootball.signing.keystore
+onefootball.properties.gradle
